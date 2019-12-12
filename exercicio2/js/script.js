@@ -5,6 +5,7 @@ while(true){
     if(entrada=="fim"){
         break;
     }
+    console.log(entrada);
     media+=parseFloat(entrada);
     contador++;
 }
