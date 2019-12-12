@@ -1,12 +1,7 @@
-let media=0;
-let contador=0;
-while(true){
-    let entrada = prompt();
-    if(entrada=="fim"){
-        break;
-    }
-    console.log(entrada);
-    media+=parseFloat(entrada);
-    contador++;
+let maior = [];
+for(let i=0;i<5;i++){
+    let entrada = parseFloat(prompt());
+    maior.push(entrada);    
 }
-alert(media/contador);
+maior.sort();
+alert(maior[4]);
