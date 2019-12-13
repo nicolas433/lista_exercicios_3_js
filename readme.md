@@ -29,12 +29,12 @@ digitado.
 
 7. Receba o nome completo do usuário e faça a validação seguindo as
 seguintes regras:
-  -O primeiro nome precisa conter pelo menos 4 caracteres
-  -A primeira letra de cada parte (exceto de, da, do) do nome deve
-ser maíuscula (ex. Jose)
-  -Deve existir pelo menos um sobrenome
-  -Não pode existir número em nenuma parte do nome
-  -Ao validar, mostrar se o nome é válido ou inválido. Use funções.
+  - O primeiro nome precisa conter pelo menos 4 caracteres
+  - A primeira letra de cada parte (exceto de, da, do) do nome deve 
+   ser maíuscula (ex. Jose)
+  - Deve existir pelo menos um sobrenome
+  - Não pode existir número em nenuma parte do nome
+  - Ao validar, mostrar se o nome é válido ou inválido. Use funções.
 
 8. Receba o nome completo do usuário e, em seguida, solicite um
 número. De acordo com o número, mostre o caractere
