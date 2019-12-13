@@ -41,14 +41,7 @@ número. De acordo com o número, mostre o caractere
 correspondente. Caso o número seja 0, negativo ou maior que o
 total de caracteres, exiba uma mensagem de erro. Use funções.
 
-10. Ao abrir a página, automáticamente, mostre para o usuário uma
+9. Ao abrir a página, automáticamente, mostre para o usuário uma
 caixa de diálogo com uma saudação. A saudação deve variar de
 acordo com o horário do dia. O código a seguir mostra como
 conseguir a hora atual. Use IIFE.
-
-// pegar data atual
-const dataAtual = new Date();
-// pegar a hora do dia
-const horaAtual = dataAtual.getHours();
-// mostrar hora atual
-alert("São exatemente " + horaAtual + " horas");
