@@ -32,8 +32,9 @@ function validate3(entrada){
 
 function validate4(entrada){
     for(let i = 0; i < entrada.length; i++) {
-        if(parseFloat(entrada[i]) != NaN){
-            alert(`Não pode existir número em nenuma parte do nome.`);
+        const istoEUmTexto = isNaN(parseFloat(entrada[i]));
+        if(!istoEUmTexto){
+            alert(`Nao pode existir numero em nenhuma parte do nome.`);
             valido = false;
             break;
         }
